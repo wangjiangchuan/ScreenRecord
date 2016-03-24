@@ -194,7 +194,6 @@ public class ScreenRecorder extends Thread {
     }
 
 
-
     private void release() {
         if (mEncoder != null) {
             mEncoder.stop();

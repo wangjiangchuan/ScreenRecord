@@ -75,7 +75,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(mRecorder != null){
+        if (mRecorder != null) {
             mRecorder.quit();
             mRecorder = null;
         }
